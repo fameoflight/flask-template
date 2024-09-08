@@ -1,9 +1,10 @@
 [tool.poetry]
 name = "flask-template"
 version = "0.1.0"
-description = ""
+description = "A simple flask template"
 authors = ["Hemant Verma <fameoflight@gmail.com>"]
 readme = "README.md"
+license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.9"

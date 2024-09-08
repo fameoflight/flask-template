@@ -6,7 +6,7 @@ def create_app():
     app = Flask(__name__)
     CORS(app)
 
-    from flask_template.routes import main_routes
+    from main.routes import main_routes
     app.register_blueprint(main_routes)
 
     return app
